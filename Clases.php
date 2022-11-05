@@ -2,21 +2,25 @@
 
 class persona
 {
-
     // Propiedades de la clase
     public $nombre;
+    private $edad;
+    protected $altura;
 
     // Acciones o métodos de la clase
     public function asignarNombre($nuevoNombre)
     {
-
         $this->nombre = $nuevoNombre;
     }
 
-    public function imprimirNombre(){
+    public function imprimirNombre()
+    {
+        echo "Hola soy " . $this->nombre, "<br/>";
+    }
 
-        echo "Hola soy ".$this->nombre;
-
+    public function mostrarEdad(){
+        $this->edad=20;
+        return $this->edad;
     }
 }
 
@@ -29,7 +33,10 @@ $Alumno->asignarNombre("Rubén");
 $Alumno2->asignarNombre("Juan");
 
 // Imprimimos un valor creado en la clase
-// echo $Alumno->nombre."<br/>".$Alumno2->nombre;
+// echo $Alumno->nombre; con esto mostramos el nombre tambien
 
 $Alumno->imprimirNombre();
 $Alumno2->imprimirNombre();
+echo $Alumno->mostrarEdad();
+
+?>
