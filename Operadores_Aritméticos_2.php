@@ -4,12 +4,10 @@ if($_POST){
 
     $valorA=$_POST['valorA'];
     $valorB=$_POST['valorB'];
-
     /*
      && -- and
      || -- or
     */
-
 
     if($valorA != $valorB || $valorA > $valorB){
         echo $valorA." es diferente y mayor que ".$valorB;

@@ -5,13 +5,9 @@ if($_POST){
     $valorA=$_POST['valorA'];
     $valorB=$_POST['valorB'];
 
-
     if($valorA > $valorB){
         echo $valorA." es mayor que ".$valorB;
     }
-
-
-
 }
 
 ?>
