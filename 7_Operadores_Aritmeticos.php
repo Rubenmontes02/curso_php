@@ -25,7 +25,7 @@ if($_POST){
 </head>
 <body>
 
-    <form action="Ejercicio8.php" method="post">
+    <form action="7_Operadores_Aritmeticos.php" method="post">
     Valor A:
     <input type="text" name="valorA" id="">
     <br>

@@ -32,7 +32,7 @@ if($_POST){
 </head>
 <body>
 
-    <form action="Ejercicio11.php" method="post">
+    <form action="10_if-elseif-else.php" method="post">
     Valor A:
     <input type="text" name="valorA" id="">
     <br>

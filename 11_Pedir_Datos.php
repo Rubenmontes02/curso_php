@@ -24,7 +24,7 @@ if($_POST){
 <body>
 
 
-<form action="Ejercicio4.php" method="post">
+<form action="11_Pedir_Datos.php" method="post">
 Nombre:
 <input type="text" name="txtNombre" id="">
 <br>

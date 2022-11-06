@@ -22,7 +22,7 @@ echo "Hola ", $nombre;
 </head>
 <body>
  
-<form action="ejercicio2.php" method="post">
+<form action="2_Metodo_POST.php" method="post">
 Nombre:
 <input type="text" name="txtNombre" id="">
 <br>

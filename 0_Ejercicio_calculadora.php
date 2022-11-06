@@ -40,7 +40,6 @@ if($numero%2 == 0){
     echo "El numero es impar";
 }
 
-    
 }
 
 ?>
@@ -56,7 +55,7 @@ if($numero%2 == 0){
 </head>
 <body>
     
-<form action="Ejercicio calculadora.php" method="post">
+<form action="0_Ejercicio_calculadora.php" method="post">
 Introduce el primer valor:
 <input type="text" name="num1" id="">
 <br>
@@ -77,7 +76,7 @@ Seleccione la opcion deseada:
 
 <br><br><br><br><br><br>
 
-<form action="Ejercicio calculadora.php" method="post">
+<form action="0_Ejercicio_calculadora.php" method="post">
 
 Introduce un numero:
 <input type="text" name="numero" id="">
