@@ -56,14 +56,11 @@ if($numero%2 == 0){
 <body>
     
 <form action="0_Ejercicio_calculadora.php" method="post">
-Introduce el primer valor:
-<input type="text" name="num1" id="">
+Introduce el primer numero:<input type="text" name="num1" id="">
 <br>
-Introduce el segundo valor:
-<input type="text" name="num2" id="">
+Introduce el segundo numero:<input type="text" name="num2" id="">
 <br>
-Seleccione la opcion deseada:
-<br>
+Seleccione la operación que desea realizar:<br>
 <input type="submit" name="opcion" value="Sumar">
 <br>
 <input type="submit" name="opcion" value="Restar">
