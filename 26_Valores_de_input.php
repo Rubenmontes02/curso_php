@@ -70,7 +70,7 @@ dejar marcado en la casilla de texto el nombre al darle a enviar-->
 <!--                            INPUT:RADIO                     -->
 
 
-¿Te gusta?: <br>
+¿Cuál te gusta más?: <br>
 <!-- La etiqueta php se utiliza para dejar marcada la opcion una vez se envie el form -->
 <br> php: <input type="radio" <?php echo ($rgLenguaje=="php")?"checked":"";?> name="lenguaje" value="php" id=""><br>
 <br> html: <input type="radio" <?php echo ($rgLenguaje=="html")?"checked":"";?> name="lenguaje" value="html" id=""><br>
