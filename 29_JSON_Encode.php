@@ -1,6 +1,6 @@
 <?php
 
-$personas = array("Marcos"=>40, "Ruben"=>20);
+$personas = array("Nombre"=>"Ruben", "Apellidos"=>"Montes");
 
 echo json_encode($personas);
 
